@@ -161,7 +161,7 @@ class Database extends Config
      * This database connection is used when running PHPUnit database tests.
      *
      * @var array<string, mixed>
-     */
+     *//*
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
@@ -187,7 +187,7 @@ class Database extends Config
             'datetime' => 'Y-m-d H:i:s',
             'time'     => 'H:i:s',
         ],
-    ];
+    ];*/
 
     public function __construct()
     {
